@@ -1,0 +1,6 @@
+framework module Pods_______01 {
+  umbrella header "Pods-百思不得姐-01-umbrella.h"
+
+  export *
+  module * { export * }
+}
