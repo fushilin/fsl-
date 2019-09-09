@@ -14,6 +14,7 @@
 		C29B2E7C2326551D003BCF2E /* ______01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B2E7B2326551D003BCF2E /* ______01Tests.m */; };
 		C29B2E872326551D003BCF2E /* ______01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B2E862326551D003BCF2E /* ______01UITests.m */; };
 		C29B2E9623265C9D003BCF2E /* FSLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B2E9523265C9D003BCF2E /* FSLViewController.m */; };
+		C29B2E9B2326A1E4003BCF2E /* FslTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B2E9A2326A1E4003BCF2E /* FslTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		C29B2E882326551D003BCF2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C29B2E9423265C9D003BCF2E /* FSLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLViewController.h; sourceTree = "<group>"; };
 		C29B2E9523265C9D003BCF2E /* FSLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLViewController.m; sourceTree = "<group>"; };
+		C29B2E992326A1E4003BCF2E /* FslTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FslTabBarController.h; sourceTree = "<group>"; };
+		C29B2E9A2326A1E4003BCF2E /* FslTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FslTabBarController.m; sourceTree = "<group>"; };
 		CB47B8AF0C0FACAADA871490 /* Pods-百思不得姐-01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐-01.debug.xcconfig"; path = "Target Support Files/Pods-百思不得姐-01/Pods-百思不得姐-01.debug.xcconfig"; sourceTree = "<group>"; };
 		D35AFFBA092F567E9475FE48 /* Pods_______01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______01.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -153,6 +156,8 @@
 			children = (
 				C29B2E622326551B003BCF2E /* AppDelegate.h */,
 				C29B2E632326551B003BCF2E /* AppDelegate.m */,
+				C29B2E992326A1E4003BCF2E /* FslTabBarController.h */,
+				C29B2E9A2326A1E4003BCF2E /* FslTabBarController.m */,
 				C29B2E9423265C9D003BCF2E /* FSLViewController.h */,
 				C29B2E9523265C9D003BCF2E /* FSLViewController.m */,
 				C29B2E982326794D003BCF2E /* Main */,
@@ -341,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C29B2E9623265C9D003BCF2E /* FSLViewController.m in Sources */,
+				C29B2E9B2326A1E4003BCF2E /* FslTabBarController.m in Sources */,
 				C29B2E722326551D003BCF2E /* main.m in Sources */,
 				C29B2E642326551B003BCF2E /* AppDelegate.m in Sources */,
 			);

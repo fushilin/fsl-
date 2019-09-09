@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "FSLViewController.h"
+#import "FslTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -21,46 +22,11 @@
     ///1: s声明窗口
     self.window = [[UIWindow alloc]init];
     
+    
     self.window.frame = UIScreen.mainScreen.bounds;
+    FslTabBarController *tab = [[FslTabBarController alloc]init];
     
     
-    ///2.1  设置本来样式色值 NSForegroundColorAttributeName
-    NSMutableDictionary *normalDict = [NSMutableDictionary dictionary];
-    normalDict[NSFontAttributeName] = [UIFont systemFontOfSize:14];
-    normalDict[NSForegroundColorAttributeName] = [UIColor grayColor];
-    
-    /// 2.2 设置选中样式的类型
-    NSMutableDictionary *selectDict = [NSMutableDictionary dictionary];
-    selectDict[NSForegroundColorAttributeName] = [UIColor darkGrayColor];
-    
-    
-    ///2 :   创建tab
-    UITabBarController *tab = [[UITabBarController alloc] init];
-
-    /// 创建子控制器
-    
-    UIViewController *vc1 = [[UIViewController alloc]init];
-    vc1.tabBarItem.title = @"首页";
-    vc1.tabBarItem.image = [UIImage imageNamed:@"tabBar_essence_icon"];
-    vc1.tabBarItem.selectedImage = [UIImage imageNamed:@"tabBar_essence_click_icon"];
-    [vc1.tabBarItem setTitleTextAttributes:normalDict forState:UIControlStateNormal];
-    [vc1.tabBarItem setTitleTextAttributes:selectDict forState:UIControlStateSelected];
-    [tab addChildViewController:vc1];
-    
-    /// 添加第二个j控制器
-    
-    UIViewController *vc2 = [[UIViewController alloc]init];
-    vc2.tabBarItem.title = @"关注";
-    vc2.tabBarItem.image = [UIImage imageNamed:@"tabBar_essence_icon"];
-    vc2.tabBarItem.selectedImage = [UIImage imageNamed:@"tabBar_essence_click_icon"];
-    vc2.view.backgroundColor = [UIColor grayColor];
-    
-    [vc2.tabBarItem setTitleTextAttributes:normalDict forState:UIControlStateNormal];
-    [vc2.tabBarItem setTitleTextAttributes:selectDict forState:UIControlStateSelected];
-    [tab addChildViewController:vc2];
-    
-    
-    /// 创建跟试图控制器
     self.window.rootViewController =   tab ;
     
     
