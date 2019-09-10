@@ -7,6 +7,7 @@
 //
 
 #import "FslTabBarController.h"
+#import "FSLTabBar.h"
 
 @interface FslTabBarController ()
 
@@ -48,7 +49,15 @@
                 image:@"tabBar_essence_icon"
                 andSelectImage:@"tabBar_essence_click_icon"];
     
-    // Do any additional setup after loading the view.
+        [self setUp:[[UIViewController alloc] init ] title:@"我的"
+          image:@"tabBar_essence_icon"
+        andSelectImage:@"tabBar_essence_click_icon"];
+    
+        [self setUp:[[UIViewController alloc] init ] title:@"我的"
+              image:@"tabBar_essence_icon"
+            andSelectImage:@"tabBar_essence_click_icon"];
+    
+        [self setValue:[[FSLTabBar alloc] init] forKeyPath:@"tabBar"];
 }
 
 
