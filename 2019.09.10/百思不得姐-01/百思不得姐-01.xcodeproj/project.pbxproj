@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C262FD652327AE6100667D5D /* FSLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD642327AE6100667D5D /* FSLTabBar.m */; };
 		C262FD6A2327D29100667D5D /* UIView+FSLView.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD692327D29100667D5D /* UIView+FSLView.m */; };
+		C262FD7D232883FF00667D5D /* FSLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD7B232883FF00667D5D /* FSLTabBar.m */; };
+		C262FD8B2328852A00667D5D /* FSLBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD8A2328852A00667D5D /* FSLBarButtonItem.m */; };
+		C262FD8E2328877600667D5D /* FSLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD8D2328877600667D5D /* FSLMineViewController.m */; };
+		C262FD912328878500667D5D /* FSLEssectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD902328878500667D5D /* FSLEssectionViewController.m */; };
+		C262FD97232887B300667D5D /* FSLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD96232887B300667D5D /* FSLHomeViewController.m */; };
 		C29B2E642326551B003BCF2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B2E632326551B003BCF2E /* AppDelegate.m */; };
 		C29B2E6C2326551C003BCF2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29B2E6B2326551C003BCF2E /* Assets.xcassets */; };
 		C29B2E6F2326551D003BCF2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29B2E6D2326551D003BCF2E /* LaunchScreen.storyboard */; };
@@ -39,10 +43,18 @@
 /* Begin PBXFileReference section */
 		5C016CCCD02393BC78F2A204 /* Pods-百思不得姐-01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐-01.release.xcconfig"; path = "Target Support Files/Pods-百思不得姐-01/Pods-百思不得姐-01.release.xcconfig"; sourceTree = "<group>"; };
 		C262FD6223278E4300667D5D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		C262FD632327AE6100667D5D /* FSLTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLTabBar.h; sourceTree = "<group>"; };
-		C262FD642327AE6100667D5D /* FSLTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLTabBar.m; sourceTree = "<group>"; };
 		C262FD682327D29100667D5D /* UIView+FSLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FSLView.h"; sourceTree = "<group>"; };
 		C262FD692327D29100667D5D /* UIView+FSLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FSLView.m"; sourceTree = "<group>"; };
+		C262FD7B232883FF00667D5D /* FSLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLTabBar.m; sourceTree = "<group>"; };
+		C262FD7C232883FF00667D5D /* FSLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLTabBar.h; sourceTree = "<group>"; };
+		C262FD892328852A00667D5D /* FSLBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLBarButtonItem.h; sourceTree = "<group>"; };
+		C262FD8A2328852A00667D5D /* FSLBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLBarButtonItem.m; sourceTree = "<group>"; };
+		C262FD8C2328877600667D5D /* FSLMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLMineViewController.h; sourceTree = "<group>"; };
+		C262FD8D2328877600667D5D /* FSLMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLMineViewController.m; sourceTree = "<group>"; };
+		C262FD8F2328878500667D5D /* FSLEssectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLEssectionViewController.h; sourceTree = "<group>"; };
+		C262FD902328878500667D5D /* FSLEssectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLEssectionViewController.m; sourceTree = "<group>"; };
+		C262FD95232887B300667D5D /* FSLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLHomeViewController.h; sourceTree = "<group>"; };
+		C262FD96232887B300667D5D /* FSLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLHomeViewController.m; sourceTree = "<group>"; };
 		C29B2E5F2326551B003BCF2E /* 百思不得姐-01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐-01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29B2E622326551B003BCF2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C29B2E632326551B003BCF2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,6 +118,167 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C262FD6B2328830300667D5D /* FSLHome */ = {
+			isa = PBXGroup;
+			children = (
+				C262FD93232887A300667D5D /* Controller */,
+				C262FD92232887A300667D5D /* Model */,
+				C262FD94232887A300667D5D /* View */,
+			);
+			path = FSLHome;
+			sourceTree = "<group>";
+		};
+		C262FD6C2328832600667D5D /* FSLEsseciotn */ = {
+			isa = PBXGroup;
+			children = (
+				C262FD822328846500667D5D /* Controller */,
+				C262FD842328846500667D5D /* Model */,
+				C262FD832328846500667D5D /* View */,
+			);
+			path = FSLEsseciotn;
+			sourceTree = "<group>";
+		};
+		C262FD6D2328833100667D5D /* FSLMine */ = {
+			isa = PBXGroup;
+			children = (
+				C262FD872328847000667D5D /* Controller */,
+				C262FD852328846F00667D5D /* Model */,
+				C262FD862328847000667D5D /* View */,
+			);
+			path = FSLMine;
+			sourceTree = "<group>";
+		};
+		C262FD79232883FF00667D5D /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C262FD882328847700667D5D /* Controller */,
+				C262FD7A232883FF00667D5D /* View */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C262FD7A232883FF00667D5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C262FD7C232883FF00667D5D /* FSLTabBar.h */,
+				C262FD7B232883FF00667D5D /* FSLTabBar.m */,
+				C262FD892328852A00667D5D /* FSLBarButtonItem.h */,
+				C262FD8A2328852A00667D5D /* FSLBarButtonItem.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C262FD7E2328842F00667D5D /* FSLFind */ = {
+			isa = PBXGroup;
+			children = (
+				C262FD7F2328842F00667D5D /* Controller */,
+				C262FD802328842F00667D5D /* Model */,
+				C262FD812328842F00667D5D /* View */,
+			);
+			path = FSLFind;
+			sourceTree = "<group>";
+		};
+		C262FD7F2328842F00667D5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C29B2E9423265C9D003BCF2E /* FSLViewController.h */,
+				C29B2E9523265C9D003BCF2E /* FSLViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C262FD802328842F00667D5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C262FD812328842F00667D5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C262FD822328846500667D5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C262FD8F2328878500667D5D /* FSLEssectionViewController.h */,
+				C262FD902328878500667D5D /* FSLEssectionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C262FD832328846500667D5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C262FD842328846500667D5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C262FD852328846F00667D5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C262FD862328847000667D5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C262FD872328847000667D5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C262FD8C2328877600667D5D /* FSLMineViewController.h */,
+				C262FD8D2328877600667D5D /* FSLMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C262FD882328847700667D5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C29B2E992326A1E4003BCF2E /* FslTabBarController.h */,
+				C29B2E9A2326A1E4003BCF2E /* FslTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C262FD92232887A300667D5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C262FD93232887A300667D5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C262FD95232887B300667D5D /* FSLHomeViewController.h */,
+				C262FD96232887B300667D5D /* FSLHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C262FD94232887A300667D5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C29B2E562326551B003BCF2E = {
 			isa = PBXGroup;
 			children = (
@@ -161,14 +334,13 @@
 		C29B2E972326792D003BCF2E /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				C262FD7E2328842F00667D5D /* FSLFind */,
+				C262FD79232883FF00667D5D /* Others */,
+				C262FD6D2328833100667D5D /* FSLMine */,
+				C262FD6C2328832600667D5D /* FSLEsseciotn */,
+				C262FD6B2328830300667D5D /* FSLHome */,
 				C29B2E622326551B003BCF2E /* AppDelegate.h */,
 				C29B2E632326551B003BCF2E /* AppDelegate.m */,
-				C29B2E992326A1E4003BCF2E /* FslTabBarController.h */,
-				C29B2E9A2326A1E4003BCF2E /* FslTabBarController.m */,
-				C29B2E9423265C9D003BCF2E /* FSLViewController.h */,
-				C29B2E9523265C9D003BCF2E /* FSLViewController.m */,
-				C262FD632327AE6100667D5D /* FSLTabBar.h */,
-				C262FD642327AE6100667D5D /* FSLTabBar.m */,
 				C262FD682327D29100667D5D /* UIView+FSLView.h */,
 				C262FD692327D29100667D5D /* UIView+FSLView.m */,
 				C29B2E982326794D003BCF2E /* Main */,
@@ -361,8 +533,12 @@
 				C29B2E9B2326A1E4003BCF2E /* FslTabBarController.m in Sources */,
 				C29B2E722326551D003BCF2E /* main.m in Sources */,
 				C29B2E642326551B003BCF2E /* AppDelegate.m in Sources */,
-				C262FD652327AE6100667D5D /* FSLTabBar.m in Sources */,
 				C262FD6A2327D29100667D5D /* UIView+FSLView.m in Sources */,
+				C262FD8B2328852A00667D5D /* FSLBarButtonItem.m in Sources */,
+				C262FD7D232883FF00667D5D /* FSLTabBar.m in Sources */,
+				C262FD97232887B300667D5D /* FSLHomeViewController.m in Sources */,
+				C262FD8E2328877600667D5D /* FSLMineViewController.m in Sources */,
+				C262FD912328878500667D5D /* FSLEssectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

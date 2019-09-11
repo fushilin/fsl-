@@ -1,22 +1,21 @@
 //
-//  FSLViewController.m
+//  FSLMineViewController.m
 //  百思不得姐-01
 //
-//  Created by 我演示 on 2019/9/9.
+//  Created by 我演示 on 2019/9/11.
 //  Copyright © 2019 我演示. All rights reserved.
 //
 
-#import "FSLViewController.h"
+#import "FSLMineViewController.h"
 
-@interface FSLViewController ()
+@interface FSLMineViewController ()
 
 @end
 
-@implementation FSLViewController
+@implementation FSLMineViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = UIColor.redColor;
     // Do any additional setup after loading the view.
 }
 

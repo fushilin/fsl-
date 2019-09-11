@@ -25,6 +25,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property( nonatomic , assign) CGFloat fsl_centerY;
 
 
+@property( nonatomic , assign) CGFloat fsl_right;
+
+@property( nonatomic , assign) CGFloat fsl_bottom;
+
+
+
 
 
 

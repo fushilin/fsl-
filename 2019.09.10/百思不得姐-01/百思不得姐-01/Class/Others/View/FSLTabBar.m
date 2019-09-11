@@ -43,8 +43,8 @@
     [super layoutSubviews];
     
     /// 计算尺寸
-    CGFloat buttonW = self.frame.size.width/5;
-    CGFloat buttonH = self.frame.size.height;
+    CGFloat buttonW = self.fsl_width/5;
+    CGFloat buttonH = self.fsl_height;
     CGFloat buttonY = 0;
     int buttonIndex = 0;
     
