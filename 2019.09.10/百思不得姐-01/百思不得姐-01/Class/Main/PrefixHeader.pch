@@ -21,7 +21,9 @@
 
 
 #import "UIView+FSLView.h"
-#import "FSLBarButtonItem.h"
+#import "UIBarButtonItem+FSLBarButtonItem.h"
+#import "FSLNavigaitonController.h"
+#import "FSLTextViewController.h"
 /// 颜色
 
 #endif

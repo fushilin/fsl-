@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		C262FD6A2327D29100667D5D /* UIView+FSLView.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD692327D29100667D5D /* UIView+FSLView.m */; };
 		C262FD7D232883FF00667D5D /* FSLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD7B232883FF00667D5D /* FSLTabBar.m */; };
-		C262FD8B2328852A00667D5D /* FSLBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD8A2328852A00667D5D /* FSLBarButtonItem.m */; };
 		C262FD8E2328877600667D5D /* FSLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD8D2328877600667D5D /* FSLMineViewController.m */; };
 		C262FD912328878500667D5D /* FSLEssectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD902328878500667D5D /* FSLEssectionViewController.m */; };
 		C262FD97232887B300667D5D /* FSLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD96232887B300667D5D /* FSLHomeViewController.m */; };
+		C262FD9A23288A0E00667D5D /* UIBarButtonItem+FSLBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD9923288A0E00667D5D /* UIBarButtonItem+FSLBarButtonItem.m */; };
+		C262FD9D2328946800667D5D /* FSLRecommendFollowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD9C2328946800667D5D /* FSLRecommendFollowController.m */; };
+		C262FDA02328A08900667D5D /* FSLNavigaitonController.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD9F2328A08900667D5D /* FSLNavigaitonController.m */; };
+		C262FDA32328A33800667D5D /* FSLTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FDA22328A33800667D5D /* FSLTextViewController.m */; };
 		C29B2E642326551B003BCF2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B2E632326551B003BCF2E /* AppDelegate.m */; };
 		C29B2E6C2326551C003BCF2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29B2E6B2326551C003BCF2E /* Assets.xcassets */; };
 		C29B2E6F2326551D003BCF2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29B2E6D2326551D003BCF2E /* LaunchScreen.storyboard */; };
@@ -47,14 +50,20 @@
 		C262FD692327D29100667D5D /* UIView+FSLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FSLView.m"; sourceTree = "<group>"; };
 		C262FD7B232883FF00667D5D /* FSLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLTabBar.m; sourceTree = "<group>"; };
 		C262FD7C232883FF00667D5D /* FSLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLTabBar.h; sourceTree = "<group>"; };
-		C262FD892328852A00667D5D /* FSLBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLBarButtonItem.h; sourceTree = "<group>"; };
-		C262FD8A2328852A00667D5D /* FSLBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLBarButtonItem.m; sourceTree = "<group>"; };
 		C262FD8C2328877600667D5D /* FSLMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLMineViewController.h; sourceTree = "<group>"; };
 		C262FD8D2328877600667D5D /* FSLMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLMineViewController.m; sourceTree = "<group>"; };
 		C262FD8F2328878500667D5D /* FSLEssectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLEssectionViewController.h; sourceTree = "<group>"; };
 		C262FD902328878500667D5D /* FSLEssectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLEssectionViewController.m; sourceTree = "<group>"; };
 		C262FD95232887B300667D5D /* FSLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLHomeViewController.h; sourceTree = "<group>"; };
 		C262FD96232887B300667D5D /* FSLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLHomeViewController.m; sourceTree = "<group>"; };
+		C262FD9823288A0E00667D5D /* UIBarButtonItem+FSLBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+FSLBarButtonItem.h"; sourceTree = "<group>"; };
+		C262FD9923288A0E00667D5D /* UIBarButtonItem+FSLBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+FSLBarButtonItem.m"; sourceTree = "<group>"; };
+		C262FD9B2328946800667D5D /* FSLRecommendFollowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLRecommendFollowController.h; sourceTree = "<group>"; };
+		C262FD9C2328946800667D5D /* FSLRecommendFollowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLRecommendFollowController.m; sourceTree = "<group>"; };
+		C262FD9E2328A08900667D5D /* FSLNavigaitonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLNavigaitonController.h; sourceTree = "<group>"; };
+		C262FD9F2328A08900667D5D /* FSLNavigaitonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLNavigaitonController.m; sourceTree = "<group>"; };
+		C262FDA12328A33800667D5D /* FSLTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLTextViewController.h; sourceTree = "<group>"; };
+		C262FDA22328A33800667D5D /* FSLTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLTextViewController.m; sourceTree = "<group>"; };
 		C29B2E5F2326551B003BCF2E /* 百思不得姐-01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐-01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29B2E622326551B003BCF2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C29B2E632326551B003BCF2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -162,8 +171,8 @@
 			children = (
 				C262FD7C232883FF00667D5D /* FSLTabBar.h */,
 				C262FD7B232883FF00667D5D /* FSLTabBar.m */,
-				C262FD892328852A00667D5D /* FSLBarButtonItem.h */,
-				C262FD8A2328852A00667D5D /* FSLBarButtonItem.m */,
+				C262FD9823288A0E00667D5D /* UIBarButtonItem+FSLBarButtonItem.h */,
+				C262FD9923288A0E00667D5D /* UIBarButtonItem+FSLBarButtonItem.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -183,6 +192,8 @@
 			children = (
 				C29B2E9423265C9D003BCF2E /* FSLViewController.h */,
 				C29B2E9523265C9D003BCF2E /* FSLViewController.m */,
+				C262FD9B2328946800667D5D /* FSLRecommendFollowController.h */,
+				C262FD9C2328946800667D5D /* FSLRecommendFollowController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -252,6 +263,8 @@
 			children = (
 				C29B2E992326A1E4003BCF2E /* FslTabBarController.h */,
 				C29B2E9A2326A1E4003BCF2E /* FslTabBarController.m */,
+				C262FD9E2328A08900667D5D /* FSLNavigaitonController.h */,
+				C262FD9F2328A08900667D5D /* FSLNavigaitonController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -352,6 +365,8 @@
 			isa = PBXGroup;
 			children = (
 				C262FD6223278E4300667D5D /* PrefixHeader.pch */,
+				C262FDA12328A33800667D5D /* FSLTextViewController.h */,
+				C262FDA22328A33800667D5D /* FSLTextViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -531,10 +546,13 @@
 			files = (
 				C29B2E9623265C9D003BCF2E /* FSLViewController.m in Sources */,
 				C29B2E9B2326A1E4003BCF2E /* FslTabBarController.m in Sources */,
+				C262FD9A23288A0E00667D5D /* UIBarButtonItem+FSLBarButtonItem.m in Sources */,
+				C262FD9D2328946800667D5D /* FSLRecommendFollowController.m in Sources */,
 				C29B2E722326551D003BCF2E /* main.m in Sources */,
+				C262FDA02328A08900667D5D /* FSLNavigaitonController.m in Sources */,
+				C262FDA32328A33800667D5D /* FSLTextViewController.m in Sources */,
 				C29B2E642326551B003BCF2E /* AppDelegate.m in Sources */,
 				C262FD6A2327D29100667D5D /* UIView+FSLView.m in Sources */,
-				C262FD8B2328852A00667D5D /* FSLBarButtonItem.m in Sources */,
 				C262FD7D232883FF00667D5D /* FSLTabBar.m in Sources */,
 				C262FD97232887B300667D5D /* FSLHomeViewController.m in Sources */,
 				C262FD8E2328877600667D5D /* FSLMineViewController.m in Sources */,

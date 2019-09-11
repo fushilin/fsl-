@@ -19,6 +19,13 @@
 
 /// 1：懒加载对应的vie
 
+-(instancetype)initWithFrame:(CGRect)frame {
+    if (self = [ super initWithFrame:frame]) {
+        self.backgroundImage = [UIImage imageNamed:@"tabbar-light"];
+    }
+    return  self;
+}
+
 -(UIButton *)publishButton {
     if (!_publishButton) {
         UIButton *publishButton = [UIButton buttonWithType:UIButtonTypeCustom];

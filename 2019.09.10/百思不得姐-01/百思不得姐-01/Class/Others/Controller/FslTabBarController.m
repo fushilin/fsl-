@@ -41,34 +41,25 @@
     /// 创建子控制器
     
 
-    [self setUp:[[UINavigationController alloc] initWithRootViewController:[[FSLViewController alloc] init]] title:@"首页"
+    [self setUp:[[FSLNavigaitonController alloc] initWithRootViewController:[[FSLViewController alloc] init]] title:@"首页"
           image:@"tabBar_essence_icon"
             andSelectImage:@"tabBar_essence_click_icon"];
     
-    /// 添加第二个j控制器
-
-    
     /// 创建跟试图控制器
-    [self setUp:[[UINavigationController alloc] initWithRootViewController:[[FSLHomeViewController alloc] init]] title:@"关注"
+    [self setUp:[[FSLNavigaitonController alloc] initWithRootViewController:[[FSLHomeViewController alloc] init]] title:@"关注"
           image:@"tabBar_essence_icon"
  andSelectImage:@"tabBar_essence_click_icon"];
     
     
-    [self setUp:[[UINavigationController alloc] initWithRootViewController:[[FSLEssectionViewController alloc] init]] title:@"发现"
+    [self setUp:[[FSLNavigaitonController alloc] initWithRootViewController:[[FSLEssectionViewController alloc] init]] title:@"发现"
           image:@"tabBar_essence_icon"
  andSelectImage:@"tabBar_essence_click_icon"];
     
-    [self setUp:[[UINavigationController alloc] initWithRootViewController:[[FSLMineViewController alloc] init]] title:@"我的"
+    [self setUp:[[FSLNavigaitonController alloc] initWithRootViewController:[[FSLMineViewController alloc] init]] title:@"我的"
           image:@"tabBar_essence_icon"
  andSelectImage:@"tabBar_essence_click_icon"];
-    
 
-
-//        [self setUp:[[UIViewController alloc] init ] title:@"我的"
-//              image:@"tabBar_essence_icon"
-//            andSelectImage:@"tabBar_essence_click_icon"];
-//
-        [self setValue:[[FSLTabBar alloc] init] forKeyPath:@"tabBar"];
+    [self setValue:[[FSLTabBar alloc] init] forKeyPath:@"tabBar"];
 }
 
 

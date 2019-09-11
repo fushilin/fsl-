@@ -19,12 +19,15 @@
     self.view.backgroundColor = UIColor.redColor;
    
 
-    self.navigationItem.leftBarButtonItem = [FSLBarButtonItem itemWithImage:@"MainTagSubIcon" highSelctImage:@"MainTagSubIconClick" andTarget:self andAciton:@selector(pressLeftAction)];
-    
-    
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" highSelctImage:@"MainTagSubIconClick" andTarget:self andAciton:@selector(pressLeftAction)];    
 }
 -(void)pressLeftAction {
     FSLLog(@"dian");
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self.navigationController pushViewController:[[FSLTextViewController alloc]init] animated:true];
+    
+}
 @end
