@@ -25,6 +25,7 @@
 #import "FSLNavigaitonController.h"
 #import "FSLTextViewController.h"
 #import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
 /// 颜色
 
 #endif

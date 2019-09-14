@@ -8,6 +8,8 @@
 
 #import "FSLFooterView.h"
 #import "AFNetworking.h"
+#import "FSLMeSquare.h"
+#import "MJExtension.h"
 
 @implementation FSLFooterView
 -(instancetype)initWithFrame:(CGRect)frame {
@@ -23,12 +25,27 @@
             
         } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
             
+            NSArray *squares = [FSLMeSquare  mj_objectArrayWithKeyValuesArray:responseObject[@""]];
+            
+            
         } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
             
         }];
         
     }
     return  self;
+}
+
+-(void)withSqaArray:(NSArray *)array {
+    
+    UIButton *btn =[UIButton buttonWithType:UIButtonTypeCustom];
+    
+    /// 获取父控件位置
+    UITableView *tableView  = (UITableView *)self.superview;
+    /// 清空一下，再来处理
+    tableView.tableFooterView = nil ;
+    
+    tableView.tableFooterView = self;
 }
 
 @end
