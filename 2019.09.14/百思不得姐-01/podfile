@@ -4,4 +4,6 @@ target '百思不得姐-01' do
 
 
   pod 'SDWebImage', '~>3.8'
+  pod 'AFNetworking'
+  pod 'MJExtension'
 end

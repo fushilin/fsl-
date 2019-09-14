@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-百思不得姐-01/Pods-百思不得姐-01-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework
 ${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
