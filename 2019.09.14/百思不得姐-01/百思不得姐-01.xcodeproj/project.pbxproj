@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C238B32C232C796C00692BED /* FSLLoginRegisterField.m in Sources */ = {isa = PBXBuildFile; fileRef = C238B32B232C796C00692BED /* FSLLoginRegisterField.m */; };
 		C238B331232C89A800692BED /* UITextField+FSLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C238B330232C89A800692BED /* UITextField+FSLExtension.m */; };
+		C238B334232C9D6200692BED /* FSLFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C238B333232C9D6200692BED /* FSLFooterView.m */; };
 		C262FD6A2327D29100667D5D /* UIView+FSLView.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD692327D29100667D5D /* UIView+FSLView.m */; };
 		C262FD7D232883FF00667D5D /* FSLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD7B232883FF00667D5D /* FSLTabBar.m */; };
 		C262FD8E2328877600667D5D /* FSLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD8D2328877600667D5D /* FSLMineViewController.m */; };
@@ -51,6 +52,8 @@
 		C238B32B232C796C00692BED /* FSLLoginRegisterField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLLoginRegisterField.m; sourceTree = "<group>"; };
 		C238B32F232C89A800692BED /* UITextField+FSLExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+FSLExtension.h"; sourceTree = "<group>"; };
 		C238B330232C89A800692BED /* UITextField+FSLExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+FSLExtension.m"; sourceTree = "<group>"; };
+		C238B332232C9D6200692BED /* FSLFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLFooterView.h; sourceTree = "<group>"; };
+		C238B333232C9D6200692BED /* FSLFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLFooterView.m; sourceTree = "<group>"; };
 		C262FD6223278E4300667D5D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C262FD682327D29100667D5D /* UIView+FSLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FSLView.h"; sourceTree = "<group>"; };
 		C262FD692327D29100667D5D /* UIView+FSLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FSLView.m"; sourceTree = "<group>"; };
@@ -306,6 +309,8 @@
 		C262FD94232887A300667D5D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C238B332232C9D6200692BED /* FSLFooterView.h */,
+				C238B333232C9D6200692BED /* FSLFooterView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -571,6 +576,7 @@
 				C262FDA02328A08900667D5D /* FSLNavigaitonController.m in Sources */,
 				C262FDA32328A33800667D5D /* FSLTextViewController.m in Sources */,
 				C29B2E642326551B003BCF2E /* AppDelegate.m in Sources */,
+				C238B334232C9D6200692BED /* FSLFooterView.m in Sources */,
 				C238B331232C89A800692BED /* UITextField+FSLExtension.m in Sources */,
 				C262FD6A2327D29100667D5D /* UIView+FSLView.m in Sources */,
 				C262FD7D232883FF00667D5D /* FSLTabBar.m in Sources */,

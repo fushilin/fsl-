@@ -8,7 +8,7 @@
 
 #import "FSLHomeViewController.h"
 
-@interface FSLHomeViewController ()
+@interface FSLHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @end
 
@@ -17,6 +17,32 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    
+}
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return  3;
+    
+}
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {return 1;
+    
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *idIntefer = @"cell";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:idIntefer];
+    
+    if(indexPath.section == 0 ) {
+        cell.textLabel.text = @"" ;
+        cell.imageView.image = nil ;
+    }else {
+        cell.imageView.image = [UIImage imageNamed:@""];
+        /// 需要进行清空的操作，cell的信息处理
+    }
+    
+    
+    return  cell;
     
 }
 

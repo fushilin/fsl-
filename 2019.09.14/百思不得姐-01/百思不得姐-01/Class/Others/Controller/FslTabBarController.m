@@ -40,17 +40,18 @@
 
     /// 创建子控制器
     
-
-    [self setUp:[[FSLNavigaitonController alloc] initWithRootViewController:[[FSLViewController alloc] init]] title:@"首页"
-          image:@"tabBar_essence_icon"
-            andSelectImage:@"tabBar_essence_click_icon"];
-    
     /// 创建跟试图控制器
     [self setUp:[[FSLNavigaitonController alloc] initWithRootViewController:[[FSLHomeViewController alloc] init]] title:@"关注"
           image:@"tabBar_essence_icon"
  andSelectImage:@"tabBar_essence_click_icon"];
     
     
+    
+    [self setUp:[[FSLNavigaitonController alloc] initWithRootViewController:[[FSLViewController alloc] init]] title:@"首页"
+          image:@"tabBar_essence_icon"
+            andSelectImage:@"tabBar_essence_click_icon"];
+    
+
     [self setUp:[[FSLNavigaitonController alloc] initWithRootViewController:[[FSLEssectionViewController alloc] init]] title:@"发现"
           image:@"tabBar_essence_icon"
  andSelectImage:@"tabBar_essence_click_icon"];
