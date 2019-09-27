@@ -7,8 +7,12 @@
 //
 
 #import "FSLHomeViewController.h"
+#import "FSLFooterView.h"
 
 @interface FSLHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
+/**tableView*/
+@property(nonatomic,strong) UITableView *tableView;
+
 
 @end
 
@@ -17,9 +21,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    [self setUpTableView];
     
 }
 
+-(void)setUpTableView{
+    self.tableView.tableFooterView = [[FSLFooterView alloc] init];
+    
+    
+    /// 记住，信息更新以后，tableView要进行更新变化
+    [self.tableView reloadData];
+    
+    
+}
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return  3;
     

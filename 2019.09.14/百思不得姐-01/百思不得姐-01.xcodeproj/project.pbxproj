@@ -12,6 +12,9 @@
 		C238B331232C89A800692BED /* UITextField+FSLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C238B330232C89A800692BED /* UITextField+FSLExtension.m */; };
 		C238B334232C9D6200692BED /* FSLFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C238B333232C9D6200692BED /* FSLFooterView.m */; };
 		C238B337232CDDD200692BED /* FSLMeSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = C238B336232CDDD200692BED /* FSLMeSquare.m */; };
+		C238B33B232D30E500692BED /* FSLWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C238B339232D30E500692BED /* FSLWebViewViewController.m */; };
+		C238B33C232D30E500692BED /* FSLWebViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C238B33A232D30E500692BED /* FSLWebViewViewController.xib */; };
+		C261257E232DC1A0007E7311 /* FSLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C261257D232DC1A0007E7311 /* FSLSettingViewController.m */; };
 		C262FD6A2327D29100667D5D /* UIView+FSLView.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD692327D29100667D5D /* UIView+FSLView.m */; };
 		C262FD7D232883FF00667D5D /* FSLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD7B232883FF00667D5D /* FSLTabBar.m */; };
 		C262FD8E2328877600667D5D /* FSLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C262FD8D2328877600667D5D /* FSLMineViewController.m */; };
@@ -58,6 +61,11 @@
 		C238B333232C9D6200692BED /* FSLFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLFooterView.m; sourceTree = "<group>"; };
 		C238B335232CDDD200692BED /* FSLMeSquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLMeSquare.h; sourceTree = "<group>"; };
 		C238B336232CDDD200692BED /* FSLMeSquare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLMeSquare.m; sourceTree = "<group>"; };
+		C238B338232D30E500692BED /* FSLWebViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLWebViewViewController.h; sourceTree = "<group>"; };
+		C238B339232D30E500692BED /* FSLWebViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLWebViewViewController.m; sourceTree = "<group>"; };
+		C238B33A232D30E500692BED /* FSLWebViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSLWebViewViewController.xib; sourceTree = "<group>"; };
+		C261257C232DC1A0007E7311 /* FSLSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLSettingViewController.h; sourceTree = "<group>"; };
+		C261257D232DC1A0007E7311 /* FSLSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLSettingViewController.m; sourceTree = "<group>"; };
 		C262FD6223278E4300667D5D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C262FD682327D29100667D5D /* UIView+FSLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FSLView.h"; sourceTree = "<group>"; };
 		C262FD692327D29100667D5D /* UIView+FSLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FSLView.m"; sourceTree = "<group>"; };
@@ -280,6 +288,11 @@
 			children = (
 				C262FD8C2328877600667D5D /* FSLMineViewController.h */,
 				C262FD8D2328877600667D5D /* FSLMineViewController.m */,
+				C238B338232D30E500692BED /* FSLWebViewViewController.h */,
+				C238B339232D30E500692BED /* FSLWebViewViewController.m */,
+				C238B33A232D30E500692BED /* FSLWebViewViewController.xib */,
+				C261257C232DC1A0007E7311 /* FSLSettingViewController.h */,
+				C261257D232DC1A0007E7311 /* FSLSettingViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -507,6 +520,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C29B2E6F2326551D003BCF2E /* LaunchScreen.storyboard in Resources */,
+				C238B33C232D30E500692BED /* FSLWebViewViewController.xib in Resources */,
 				C29B2E6C2326551C003BCF2E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -580,6 +594,7 @@
 				C262FD9D2328946800667D5D /* FSLRecommendFollowController.m in Sources */,
 				C29B2E722326551D003BCF2E /* main.m in Sources */,
 				C238B32C232C796C00692BED /* FSLLoginRegisterField.m in Sources */,
+				C238B33B232D30E500692BED /* FSLWebViewViewController.m in Sources */,
 				C262FDA02328A08900667D5D /* FSLNavigaitonController.m in Sources */,
 				C262FDA32328A33800667D5D /* FSLTextViewController.m in Sources */,
 				C29B2E642326551B003BCF2E /* AppDelegate.m in Sources */,
@@ -591,6 +606,7 @@
 				C262FD8E2328877600667D5D /* FSLMineViewController.m in Sources */,
 				C262FD912328878500667D5D /* FSLEssectionViewController.m in Sources */,
 				C238B337232CDDD200692BED /* FSLMeSquare.m in Sources */,
+				C261257E232DC1A0007E7311 /* FSLSettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
