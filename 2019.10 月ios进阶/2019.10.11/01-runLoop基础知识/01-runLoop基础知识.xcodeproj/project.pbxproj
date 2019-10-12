@@ -18,6 +18,9 @@
 		C20E079A23505DD1002E9813 /* RequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E079923505DD1002E9813 /* RequestViewController.m */; };
 		C20E079D23507D6C002E9813 /* NSUrlConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E079C23507D6C002E9813 /* NSUrlConnectionViewController.m */; };
 		C20E07A023507E90002E9813 /* EhaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E079F23507E90002E9813 /* EhaViewController.m */; };
+		C20E07A32350A999002E9813 /* AFNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E07A22350A999002E9813 /* AFNViewController.m */; };
+		C20E07A6235165E8002E9813 /* AFNObserveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E07A5235165E8002E9813 /* AFNObserveViewController.m */; };
+		C20E07A9235172B9002E9813 /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E07A8235172B9002E9813 /* UIWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,12 @@
 		C20E079C23507D6C002E9813 /* NSUrlConnectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUrlConnectionViewController.m; sourceTree = "<group>"; };
 		C20E079E23507E90002E9813 /* EhaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EhaViewController.h; sourceTree = "<group>"; };
 		C20E079F23507E90002E9813 /* EhaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EhaViewController.m; sourceTree = "<group>"; };
+		C20E07A12350A999002E9813 /* AFNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNViewController.h; sourceTree = "<group>"; };
+		C20E07A22350A999002E9813 /* AFNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNViewController.m; sourceTree = "<group>"; };
+		C20E07A4235165E8002E9813 /* AFNObserveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNObserveViewController.h; sourceTree = "<group>"; };
+		C20E07A5235165E8002E9813 /* AFNObserveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNObserveViewController.m; sourceTree = "<group>"; };
+		C20E07A7235172B9002E9813 /* UIWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
+		C20E07A8235172B9002E9813 /* UIWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
 		E1627D05071C1D7DEA742E96 /* Pods_01_runLoop____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_01_runLoop____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -133,6 +142,12 @@
 				C20E079923505DD1002E9813 /* RequestViewController.m */,
 				C20E079E23507E90002E9813 /* EhaViewController.h */,
 				C20E079F23507E90002E9813 /* EhaViewController.m */,
+				C20E07A12350A999002E9813 /* AFNViewController.h */,
+				C20E07A22350A999002E9813 /* AFNViewController.m */,
+				C20E07A4235165E8002E9813 /* AFNObserveViewController.h */,
+				C20E07A5235165E8002E9813 /* AFNObserveViewController.m */,
+				C20E07A7235172B9002E9813 /* UIWebViewController.h */,
+				C20E07A8235172B9002E9813 /* UIWebViewController.m */,
 				C20E079B23507D6C002E9813 /* NSUrlConnectionViewController.h */,
 				C20E079C23507D6C002E9813 /* NSUrlConnectionViewController.m */,
 				C20E076A23502CF8002E9813 /* Main.storyboard */,
@@ -347,10 +362,13 @@
 			files = (
 				C20E076923502CF8002E9813 /* ViewController.m in Sources */,
 				C20E079D23507D6C002E9813 /* NSUrlConnectionViewController.m in Sources */,
+				C20E07A32350A999002E9813 /* AFNViewController.m in Sources */,
 				C20E077423502CF9002E9813 /* main.m in Sources */,
 				C20E079A23505DD1002E9813 /* RequestViewController.m in Sources */,
 				C20E076623502CF8002E9813 /* AppDelegate.m in Sources */,
+				C20E07A9235172B9002E9813 /* UIWebViewController.m in Sources */,
 				C20E07A023507E90002E9813 /* EhaViewController.m in Sources */,
+				C20E07A6235165E8002E9813 /* AFNObserveViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

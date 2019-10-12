@@ -8,7 +8,17 @@
 
 #import "EhaViewController.h"
 
-@interface EhaViewController ()
+
+#define FileName @"gg.mp4"
+
+@interface EhaViewController ()<NSURLSessionDelegate,NSURLSessionDataDelegate>
+
+/**<#type#>*/
+@property(nonatomic,strong)  NSOutputStream *stream ;
+
+/**<#type#>*/
+@property(nonatomic,assign) NSInteger  totalLength ;
+
 
 @end
 
@@ -17,7 +27,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    NSString *caches = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)lastObject];
+    
+    NSString *fullPath = [caches stringByAppendingPathComponent:@""];
+    
+    ///  去文件中查找信息
+    NSFileManager *manger = [NSFileManager defaultManager];
+    
+    NSDictionary *dict = [manger attributesOfFileSystemForPath:fullPath error:nil];
+    
+    /// 看第一次数据是什么
+    NSInteger fileSize = dict[@"NSFileSize"];
+    
+    
+    
+    
+    
 }
+
+
+
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
@@ -40,6 +70,48 @@
     
     
 }
+
+-(void)URLSession:(NSURLSession *)session didBecomeInvalidWithError:(NSError *)error {
+    
+}
+
+-(void)URLSession:(NSURLSession *)session didReceiveChallenge:(NSURLAuthenticationChallenge *)challenge completionHandler:(void (^)(NSURLSessionAuthChallengeDisposition, NSURLCredential * _Nullable))completionHandler {
+//    self.totalLength = r
+    
+}
+
+/**
+ 拿到多次，随时调用
+ */
+-(void)URLSession:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask didReceiveData:(NSData *)data {
+    /// 写文件
+    [self.stream write:data.bytes maxLength:data.length];
+}
+-(void)URLSession:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask didReceiveResponse:(NSURLResponse *)response completionHandler:(void (^)(NSURLSessionResponseDisposition))completionHandler {
+    
+    
+    /// 信息处理
+    
+    /// 拿到文件大小
+    self.totalLength = response.expectedContentLength ;
+    
+    NSString *caches = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)lastObject];
+    
+    NSString *fullPath = [caches stringByAppendingPathComponent:@""];
+    
+    /// 1: 创建输出流c 如果没有文件，那么就会创建
+    NSOutputStream *stream =  [[NSOutputStream alloc] initToFileAtPath:fullPath append:YES];
+    
+    
+    completionHandler(NSURLSessionResponseAllow);
+}
+
+///离线断点下载
+
+
+
+/// 断点下载信息
+
 /*
 #pragma mark - Navigation
 
