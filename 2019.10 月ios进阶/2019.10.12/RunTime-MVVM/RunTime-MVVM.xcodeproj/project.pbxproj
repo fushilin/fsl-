@@ -24,6 +24,7 @@
 		C20E08022351B745002E9813 /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E08012351B745002E9813 /* Status.m */; };
 		C20E08052351BA00002E9813 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E08042351BA00002E9813 /* NSObject+Model.m */; };
 		C20E08092351D1E1002E9813 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E08082351D1E1002E9813 /* TextViewController.m */; };
+		C20E080C2351D274002E9813 /* BlcokViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E080B2351D274002E9813 /* BlcokViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,8 @@
 		C20E08062351BE6D002E9813 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		C20E08072351D1E1002E9813 /* TextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
 		C20E08082351D1E1002E9813 /* TextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		C20E080A2351D274002E9813 /* BlcokViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlcokViewController.h; sourceTree = "<group>"; };
+		C20E080B2351D274002E9813 /* BlcokViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlcokViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +174,8 @@
 				C20E07C1235178AB002E9813 /* LaunchScreen.storyboard */,
 				C20E07C4235178AB002E9813 /* Info.plist */,
 				C20E07C5235178AB002E9813 /* main.m */,
+				C20E080A2351D274002E9813 /* BlcokViewController.h */,
+				C20E080B2351D274002E9813 /* BlcokViewController.m */,
 			);
 			path = "RunTime-MVVM";
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 				C20E08022351B745002E9813 /* Status.m in Sources */,
 				C20E08092351D1E1002E9813 /* TextViewController.m in Sources */,
 				C20E07F0235187B1002E9813 /* ShowViewController.m in Sources */,
+				C20E080C2351D274002E9813 /* BlcokViewController.m in Sources */,
 				C20E08052351BA00002E9813 /* NSObject+Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
