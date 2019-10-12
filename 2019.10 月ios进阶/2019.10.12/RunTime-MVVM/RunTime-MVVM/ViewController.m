@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
+#import "NSObject+Objc.h"
+
 /**
  泛型： 限制类型
  
@@ -34,7 +37,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+//    [UIImage xmg];
+
+    NSObject *objc = [[NSObject alloc] init];
+    objc.name = @"" ;
+  
 }
 
 
