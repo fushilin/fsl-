@@ -23,6 +23,7 @@
 		C20E07FF2351B4FE002E9813 /* NSObject+Objc.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E07FE2351B4FE002E9813 /* NSObject+Objc.m */; };
 		C20E08022351B745002E9813 /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E08012351B745002E9813 /* Status.m */; };
 		C20E08052351BA00002E9813 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E08042351BA00002E9813 /* NSObject+Model.m */; };
+		C20E08092351D1E1002E9813 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E08082351D1E1002E9813 /* TextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,9 @@
 		C20E08012351B745002E9813 /* Status.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
 		C20E08032351BA00002E9813 /* NSObject+Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
 		C20E08042351BA00002E9813 /* NSObject+Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		C20E08062351BE6D002E9813 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		C20E08072351D1E1002E9813 /* TextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		C20E08082351D1E1002E9813 /* TextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,12 +157,15 @@
 				C20E07FE2351B4FE002E9813 /* NSObject+Objc.m */,
 				C20E08032351BA00002E9813 /* NSObject+Model.h */,
 				C20E08042351BA00002E9813 /* NSObject+Model.m */,
+				C20E08062351BE6D002E9813 /* Header.h */,
 				C20E07FA2351AB61002E9813 /* UIView+Objc.h */,
 				C20E07FB2351AB61002E9813 /* UIView+Objc.m */,
 				C20E07E82351846F002E9813 /* Person.h */,
 				C20E07E92351846F002E9813 /* Person.m */,
 				C20E07EB235186A3002E9813 /* PersonViewController.h */,
 				C20E07EC235186A3002E9813 /* PersonViewController.m */,
+				C20E08072351D1E1002E9813 /* TextViewController.h */,
+				C20E08082351D1E1002E9813 /* TextViewController.m */,
 				C20E07BC235178AA002E9813 /* Main.storyboard */,
 				C20E07BF235178AB002E9813 /* Assets.xcassets */,
 				C20E07C1235178AB002E9813 /* LaunchScreen.storyboard */,
@@ -361,6 +368,7 @@
 				C20E07FC2351AB61002E9813 /* UIView+Objc.m in Sources */,
 				C20E07B8235178AA002E9813 /* AppDelegate.m in Sources */,
 				C20E08022351B745002E9813 /* Status.m in Sources */,
+				C20E08092351D1E1002E9813 /* TextViewController.m in Sources */,
 				C20E07F0235187B1002E9813 /* ShowViewController.m in Sources */,
 				C20E08052351BA00002E9813 /* NSObject+Model.m in Sources */,
 			);
