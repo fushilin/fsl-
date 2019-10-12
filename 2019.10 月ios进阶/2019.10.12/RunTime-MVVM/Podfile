@@ -1,0 +1,8 @@
+
+# platform :ios, '9.0'
+
+target 'RunTime-MVVM' do
+
+ pod "SDWebImage"
+
+end
