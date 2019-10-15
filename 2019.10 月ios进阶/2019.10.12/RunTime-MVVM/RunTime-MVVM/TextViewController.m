@@ -18,14 +18,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    void (^blcok) () = ^() {
+  
     
     
 }
     
 //    blc 
-    
-}
 
 /*
 #pragma mark - Navigation

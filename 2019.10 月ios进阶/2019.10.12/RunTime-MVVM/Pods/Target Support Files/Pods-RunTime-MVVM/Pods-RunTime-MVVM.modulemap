@@ -1,0 +1,6 @@
+module Pods_RunTime_MVVM {
+  umbrella header "Pods-RunTime-MVVM-umbrella.h"
+
+  export *
+  module * { export * }
+}
