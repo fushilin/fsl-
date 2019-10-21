@@ -21,24 +21,14 @@
     self.view.backgroundColor = UIColor.grayColor ;
     
     
+    Person *per = [[Person alloc] init];
     
-    ///添加searc
-    UISearchBar *search = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 0, 180, 100)];
+    per.age = 10;
     
-    search.placeholder = @"搜索";
     
-//    search.clipsToBounds = true;
-    [search setShowsCancelButton:YES];
-    search.backgroundColor = UIColor.redColor;
     
-    UIView *searchView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 768, 100)];
-    searchView.backgroundColor = [UIColor blueColor];
-    [searchView addSubview:search];
     
-    self.navigationItem.titleView = searchView;
-    
-    NSLog(@"--------%lf",self.navigationItem.titleView.frame.size.height);
-    
+
     
     
 }

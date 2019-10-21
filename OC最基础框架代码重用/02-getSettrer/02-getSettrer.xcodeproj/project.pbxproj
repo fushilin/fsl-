@@ -14,7 +14,6 @@
 		C215034D235AE2AF007F6EFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C215034C235AE2AF007F6EFF /* main.m */; };
 		C2150357235AE2AF007F6EFF /* _2_getSettrerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2150356235AE2AF007F6EFF /* _2_getSettrerTests.m */; };
 		C2150362235AE2AF007F6EFF /* _2_getSettrerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2150361235AE2AF007F6EFF /* _2_getSettrerUITests.m */; };
-		C2150371235AE2EE007F6EFF /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C2150370235AE2EE007F6EFF /* Person.m */; };
 		C2150374235B16A0007F6EFF /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2150373235B16A0007F6EFF /* SearchViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -50,8 +49,6 @@
 		C215035D235AE2AF007F6EFF /* 02-getSettrerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-getSettrerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2150361235AE2AF007F6EFF /* _2_getSettrerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_getSettrerUITests.m; sourceTree = "<group>"; };
 		C2150363235AE2AF007F6EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C215036F235AE2EE007F6EFF /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		C2150370235AE2EE007F6EFF /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		C2150372235B16A0007F6EFF /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		C2150373235B16A0007F6EFF /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,8 +105,6 @@
 				C215033E235AE2AD007F6EFF /* AppDelegate.m */,
 				C2150372235B16A0007F6EFF /* SearchViewController.h */,
 				C2150373235B16A0007F6EFF /* SearchViewController.m */,
-				C215036F235AE2EE007F6EFF /* Person.h */,
-				C2150370235AE2EE007F6EFF /* Person.m */,
 				C2150343235AE2AD007F6EFF /* Main.storyboard */,
 				C2150346235AE2AF007F6EFF /* Assets.xcassets */,
 				C2150348235AE2AF007F6EFF /* LaunchScreen.storyboard */,
@@ -268,7 +263,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C215034D235AE2AF007F6EFF /* main.m in Sources */,
-				C2150371235AE2EE007F6EFF /* Person.m in Sources */,
 				C2150374235B16A0007F6EFF /* SearchViewController.m in Sources */,
 				C215033F235AE2AD007F6EFF /* AppDelegate.m in Sources */,
 			);
